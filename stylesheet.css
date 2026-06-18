@@ -1,0 +1,123 @@
+section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, rgb(236, 178, 188), rgb(247, 160, 173));
+    font-size:large;
+}
+#usernameinput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.input-button{
+    padding: 12px 15px;
+    width: 250px;
+    max-width: 90%;
+    font-size: 16px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    font-family: cursive;
+}
+.opening{
+    align-items: center;
+    justify-content: center;
+    
+}
+.confirm-button{
+    padding: 12px 30px;
+    background-color:white;
+    border-style:solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    border-width: 2px;
+    min-width: 100px;
+}
+#Chloe{
+    justify-content: flex-start;
+}
+#keysha {
+    justify-content: flex-start;
+}
+.clong{
+    align-items: top;
+    justify-content: top;
+}
+#letter1{
+    background-color:rgb(255, 215, 221);
+    text-align:justify;
+    border-radius: 35px;
+    width: 90%;
+    max-width: 600px;
+    min-height: 500px;
+    padding: 20px;
+    font-size: 16px;
+    overflow-y: auto;
+}
+#letter2{
+    background-color:rgb(255, 215, 221);
+    text-align:justify;
+    border-radius: 35px;
+    width: 90%;
+    max-width: 600px;
+    min-height: 500px;
+    padding: 20px;
+    font-size: 16px;
+    overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 10px;
+    }
+    
+    #usernameinput {
+        gap: 15px;
+    }
+    
+    .input-button {
+        width: 90%;
+        font-size: 16px;
+        padding: 15px;
+    }
+    
+    .confirm-button {
+        padding: 15px 25px;
+        font-size: 16px;
+    }
+    
+    #letter1, #letter2 {
+        width: 95%;
+        max-width: 100%;
+        min-height: auto;
+        max-height: 70vh;
+        padding: 15px;
+        font-size: 15px;
+    }
+    
+    .opening {
+        padding: 10px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 769px) {
+    #Chloe, #keysha {
+        height: auto;
+        min-height: 100vh;
+        padding: 40px 20px;
+    }
+    
+    #letter1, #letter2 {
+        width: 80%;
+        max-width: 400px;
+        min-height: 450px;
+    }
+}
